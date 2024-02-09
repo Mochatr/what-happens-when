@@ -223,6 +223,7 @@ DNS lookup
   ``ARP process`` below for the DNS server.
 * If the DNS server is on a different subnet, the network library follows
   the ``ARP process`` below for the default gateway IP.
+* The DNS server queries various directories based on the top-level domain (.com in this case), eventually finding the corresponding IP address for “google.com".
 
 
 ARP process
